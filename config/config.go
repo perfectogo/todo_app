@@ -17,7 +17,7 @@ func Load() *Config {
 	Config.AppNeme = "todo_app"
 	Config.HttpPort = ":8080"
 
-	Config.DbName = "postgres"
+	Config.DbUser = "postgres"
 	Config.DbUserPass = "postgres"
 	Config.DbHost = "localhost"
 	Config.DbPort = 5432

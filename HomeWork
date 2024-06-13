@@ -1,0 +1,21 @@
+Registration system
+
+SignUp
+    fullname
+    username
+    password
+
+
+        code := 777777
+
+Auth
+    otp_code
+
+Login
+    username 
+    password
+
+    
+    /sign-up
+    /auth 
+    /login

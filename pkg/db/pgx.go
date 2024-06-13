@@ -16,7 +16,8 @@ func NewPgx(cfg *config.Config) (*pgx.Conn, error) {
 		cfg.DbUser,
 		cfg.DbUserPass,
 		cfg.DbHost,
-		cfg.DbPort, cfg.DbName,
+		cfg.DbPort,
+		cfg.DbName,
 	)
 
 	con, err := pgx.Connect(context.Background(), url)
